@@ -90,7 +90,11 @@ return (
   <>
     {/* <UserContext.Provider value={{ username, setUsername }}>
       <AfterLogin/> */}
-
+      <div className=" navbar bg-neutral-600 text-neutral-content">
+  <div className='containerWrap '>
+  <a className="btn btn-ghost normal-case text-[30px]">SimpleChat</a>
+  </div>
+</div>
     <div className="flex flex-col  items-center justify-center min-h-screen bg-blue-50 ">
       <div className='text-6xl text-black mb-5'>Sign Up</div>
       <form className="p-6 space-y-8 border rounded-lg border border-solid border-black" onSubmit={handleSubmit}>

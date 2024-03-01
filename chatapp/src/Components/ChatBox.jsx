@@ -34,7 +34,7 @@ return ()=> unsubscribe;
 
 
     return (
-        <div className="pb-44 pt-30  containerWrap">
+        <div className="pb-74 pt-30  containerWrap">
             {messages.map(message => (
                 <Message key={message.id} message={message} />
             ))}

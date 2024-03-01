@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 .containerWrap{
-  @apply container mx-auto max-w-4xl
+  @apply container mx-auto max-w-5xl;
 }
 body {
   margin: 0;
